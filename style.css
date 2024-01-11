@@ -1,0 +1,74 @@
+.img{
+width: 20px;
+}
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+box-sizing: border-box;}
+body{
+background: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcwMTcxNTI0NA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+}
+.tudo{
+color: white;
+font-weight: 700;
+display: flex;
+flex-direction: column;
+width: 500px;
+height: 300px;
+background-color: black;
+opacity: 0.8;
+border-radius: 20px;
+margin: 100px auto;
+padding: 20px;
+}
+.controle{
+width: 100%;
+justify-content: space-between;
+display: flex;
+margin-bottom: 30px;
+}
+
+.inp{
+padding: 15px;
+width: 390px;
+border-radius: 10px;
+outline: none;
+background-color: black;
+font-size: 18px;
+border: 0;
+color: white;
+border-bottom: 3px solid blue;
+}
+.btn{
+border-radius: 50%;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #222;
+border: 0;
+height: 40px;
+margin-top: 5px;
+}
+h1{
+    margin-bottom: 30px;
+}
+.graus{
+    font-size: 20px;
+}
+.baixo{
+display: flex;
+align-items:center;
+margin-left: -10px;
+margin-bottom: 10px;
+}
+.tempo{
+letter-spacing: 2px;
+text-transform: capitalize;
+
+}
+.nuvem{
+    opacity: 0;
+}
+
