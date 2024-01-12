@@ -50,6 +50,7 @@ background-color: #222;
 border: 0;
 height: 40px;
 margin-top: 5px;
+cursor:pointer;
 }
 h1{
     margin-bottom: 30px;
